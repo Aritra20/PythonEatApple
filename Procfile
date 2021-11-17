@@ -1,1 +1,1 @@
-worker: python SnakeGame.py
+web: uvicorn SnakeGame:app --log-file -
